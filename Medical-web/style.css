@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Scheherazade+New:wght@400;500;600;700&display=swap');
+
+
+
+.navbar{
+    background-color: #CDF5FD !important;
+}
+.navbar div a{
+    font-size: 0.875em;
+    font-weight: 700;
+}
+
+
+.hero-container{
+    background-color: #CDF5FD;
+    padding-top: 100px;
+}
+.btn-custom-color{
+    color: #00A9FF !important;
+    background-color: #CDF5FD !important;
+}
+.hero-text h1{
+    font-size: 3.625em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.hero-text h5{
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.hero-text p{
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+
+/*.pricing-container{
+    padding-top: 100px;
+}*/
+.pricing-container-items h1{
+    font-size: 3.625em;
+    font-weight: 700;
+    text-align: center;
+    color: #00A9FF;
+    font-family: "Montserrat", sans-serif;
+}
+.pricing-container-items h5{
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+/*Activity-Section Container*/
+
+.activity-item-1 h6{
+    font-weight: 700;
+    font-size: 0.875em;
+    font-family: "Montserrat", sans-serif;
+}
+.activity-item-1 h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.activity-item-1 h5{
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.activity-item-1 p{
+    font-size: 0.875em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.circle-icon {
+    width: 100px;       /* Set the size of the circle */
+    height: 100px;      /* Set the size of the circle */
+    border-radius: 50%; /* Make the shape circular */
+    background-color: #89CFF3 !important; /* Optional: background color */
+    display: flex;      /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    font-size: 2rem;    /* Adjust icon size */
+}
+.activity-text p{
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #737373;
+    font-family: "Montserrat", sans-serif;
+}
+.fa-solid{
+    color:#E74040;
+}
+.activity-items{  
+    width: 380px !important;  
+    border: 1px solid #CDF5FD;
+    background-color: #CDF5FD; /* Optional background color for visual */
+    border-radius: 0.375rem; /* Optional border radius */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Optional shadow */
+    flex: 1; /* Ensure items take equal width */
+}
+
+
+
+
+
+/*Emergency Section*/
+
+/*.emergency-items {
+    background-color: #89cff3;
+    height: 610px;
+    width: 370px;
+}*/
+.emergency-btn{
+    border-radius: 15px !important;
+}
+
+
+.emergency-image {
+    position: relative; /* Establishes a positioning context for children */
+    display: inline-block; /* Keeps the content tightly packed */
+}
+
+.tag-image {
+    position: absolute;
+    top: 10px; /* Adjust position as needed */
+    left: 10px;
+    z-index: 2; /* Ensures it stays on top */
+}
+
+.product-image {
+    width: 100%; /* Adjusts to the container's width */
+    display: block; /* Prevents extra space below the image */
+    z-index: 1;
+}
+
+.icon-container {
+    position: absolute; /* Positions the container on the second image */
+    bottom: 10px; /* Positions it at the bottom of the image */
+    left: 50%; 
+    transform: translateX(-50%); /* Centers the container horizontally */
+    display: flex; 
+    gap: 10px; /* Adjusts spacing between icons */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 50px; /* Makes the container circular */
+    z-index: 3; /* Keeps it on top */
+}
+
+.icon-container i {
+    color: white; /* Icon color */
+    font-size: 16px; /* Adjust icon size */
+    cursor: pointer;
+    transition: transform 0.3s; /* Adds a hover effect */
+}
+
+.icon-container i:hover {
+    transform: scale(1.1); /* Scales up the icon on hover */
+}
+.anchor a{
+    text-decoration: none;
+    font-size: 0.875em;
+    font-weight: 700;
+}
+.anchor h5{
+    font-size: 1em;
+    font-weight: 700;
+}
+.anchor p{
+    font-size: 0.875em;
+    font-weight: 400;
+}
+.anchor h6{
+    font-size: 0.875em;
+    font-weight: 700;
+}
+
+
+
+
+
+/*Client Imformation Section*/
+.client-information{
+    justify-content: center !important;
+}
+.emergency-item-1{
+    text-align: center;
+}
+
+
+/*Newsletter Session*/
+.newsletter-container{
+    background-color: #CDF5FD;
+}
+.newsletter-item{
+    justify-content: center;
+    text-align: center;
+}
+.newsletter-item h6{
+    font-weight: 700;
+    font-size: 0.875em;
+    font-family: "Montserrat", sans-serif;
+    color: #00A9FF;
+}
+.newsletter-item h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.newsletter-item h5{
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.newsletter-item p{
+    font-size: 0.875em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.newsletter-form input{
+    width: 360px;
+    height: 40px;
+    border: none;
+}
+.newsletter-form button{
+    background-color: #00A9FF;
+    color: #ffff;
+    border-color: #00A9FF;
+}
+
+
+
+/*Footer Section*/
+.contact-item{
+    margin-bottom: 48px;
+}
+.contact-information{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-information h5{
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-information ul{
+    list-style: none;
+    text-align: left;
+
+}
+.contact-information ul a{
+    font-size: 0.875em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #737373;
+}
+.contact-information ul a:hover{
+    color: #252B42;
+}
+.social-media{
+    background-color: #E9E9E9;
+}
+.social-media h6{
+    color: #737373;
+}
+.social-media a{
+    text-decoration: none;
+}
+.contact-information i{
+    color: #00A9FF;
+}
+.social-media i{
+    color: #00A9FF;
+}
